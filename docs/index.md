@@ -5,7 +5,7 @@ The BCL library works with "memory spaces" to store the various variables of an 
 <!DOCTYPE html>
   <body>
     <canvas id="dScreen"></canvas>
-    <script src="drawIt.js"></script>
+    <script src="better-canvas.js"></script>
     <script>
       const myContext = new BCL("#dScreen", 1280, 720);
       myContext.CreateMemorySpaceRect({x: 50, y: 50, w: 50, h: 50, color: "#f00"})
